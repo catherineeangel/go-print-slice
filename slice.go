@@ -13,7 +13,7 @@ func Print1DSlice (slice []int) {
 func Print2DSlice (slice [][]int) {
 	for _, row:= range slice{
 		for _, val:=range row{
-			fmt.Print(val, " ")
+			fmt.Print(val, "\t")
 		}
 		fmt.Println()
 	}
