@@ -17,5 +17,4 @@ func Print2DSlice (slice [][]int) {
 		}
 		fmt.Println()
 	}
-	fmt.Println()
 }
